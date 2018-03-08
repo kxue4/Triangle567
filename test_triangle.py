@@ -33,6 +33,12 @@ class TestTriangles(unittest.TestCase):
         """
         self.assertEqual(classify_triangle(-3, -4, -5), 'not valid')
 
+    def test_invalid_input_d(self):
+        """
+        test invalid input not number
+        """
+        self.assertEqual(classify_triangle('a', 'b', 'c'), 'not valid')
+
     def test_not_a_triangle_a(self):
         """
         negative test not a triangle
