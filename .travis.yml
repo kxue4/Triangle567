@@ -21,7 +21,6 @@ install:
   
 script:
  - coverage run test_triangle.py
- - sonar-scanner
 
 after_success:
   - codecov
