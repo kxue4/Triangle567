@@ -2,12 +2,26 @@ language: python
 python:
  - "3.6"
 
+ 
+dist: trusty
+sudo: required
+
+addons:
+  sonarcloud:
+    organization: "kxue4"
+    token: 
+      secure: 927b6a472c99dee445661e165b87b0d44640dd3a
+    branches:
+      - master
+
+
 # command to run tests
 install:
   - pip install codecov
   
 script:
  - coverage run test_triangle.py
+ - sonar-scanner
 
 after_success:
   - codecov
