@@ -3,6 +3,6 @@
 
 https://sonarcloud.io/api/project_badges/measure?project=kxue4-Triangle%3Amaster&metric=alert_status
 
-[![Lines](https://sonarcloud.io/api/project_badges/measure?project=kxue4-Triangle%3Amaster&metric=ncloc)](https://sonarcloud.io/organizations/kxue4/projects)
+[![Lines](https://sonarcloud.io/api/project_badges/measure?project=kxue4-Triangle%3Amaster&metric=ncloc)]
 [![Complexity](https://sonarcloud.io/api/badges/measure?key=kxue4:sonarcloud&metric=complexity)](https://sonarcloud.io/organizations/kxue4/projects)
 [![Sonar Quality Gate](https://sonarcloud.io/api/badges/gate?key=kxue4:sonarcloud)](https://sonarcloud.io/organizations/kxue4/projects)
